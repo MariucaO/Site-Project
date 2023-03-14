@@ -1,0 +1,43 @@
+.container {
+  background-color: rgb(202, 202, 193);
+  justify-content: space-between;
+  display: flex;
+  row-gap: 30px;
+  margin: 30px;
+}
+
+h2 {
+  float: left;
+  margin-left: 100px;
+  display: flex;
+  margin-top: 25px;
+}
+p {
+  float: left;
+  text-align: justify;
+  margin-top: 25px;
+  margin: 45px;
+}
+.card-img {
+  display: flex;
+  padding: 2px;
+
+}
+
+img {
+  width: 380px;
+  height: 350px;
+  margin: 10px;
+  align-items: center;
+}
+
+
+.flexbox-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 280px;
+}
+
+footer p {
+  float: none;
+ }

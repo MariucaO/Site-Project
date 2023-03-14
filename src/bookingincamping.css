@@ -1,0 +1,61 @@
+.wrapper {
+  background-color: rgb(252, 252, 252);
+  padding: 2px;
+  max-width: 750px;
+  margin-left: 350px;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0;
+    max-width: initial;
+    margin-left: 0;
+  }
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.5em;
+}
+.form-row > label {
+  padding: 0.5em 1em 0.5em 0;
+  flex: 1;
+}
+.form-row > input {
+  flex: 2;
+}
+.form-row > input,
+.form-row > button {
+  padding: 0.5em;
+}
+.form-row > button {
+  background: gray;
+  color: white;
+  border: 0;
+}
+
+.booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+#backyard-photo {
+  width: 250px;
+  display: flex;
+  margin-top: 60px;
+}
+#booking {
+  font-size: large;
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  margin-top: 150px;
+  max-width: 700px;
+  text-align: justify;
+}
+footer p {
+  float: none;
+}
